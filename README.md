@@ -44,8 +44,11 @@
 Список не модифицированых продуктов: [products/?modified=false](http://anickone.pythonanywhere.com/products/?modified=false) .
 
 Добавлено 3 settings.py:
+
     production_settings.py - секретный, добавлен в .gitignore
+
     development_settings.py - секретный, добавлен в .gitignore
+
     example_settings.py - для open source
 
 выбираются указанием DJANGO_MODE в .env
