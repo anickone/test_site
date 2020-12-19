@@ -34,16 +34,24 @@
 
 ## Описание:
 Проект развернут [здесь](http://anickone.pythonanywhere.com/) .
+
 К модели Product добавлены поля: владелец(owner) и модификация(modified).
+
 Список всех продуктов: [products/](http://anickone.pythonanywhere.com/products/) .
+
 Список модифицированых продуктов: [products/?modified=true](http://anickone.pythonanywhere.com/products/?modified=true) .
+
 Список не модифицированых продуктов: [products/?modified=false](http://anickone.pythonanywhere.com/products/?modified=false) .
+
 Добавлено 3 settings.py:
     production_settings.py - секретный, добавлен в .gitignore
     development_settings.py - секретный, добавлен в .gitignore
     example_settings.py - для open source
+
 выбираются указанием DJANGO_MODE в .env
+
 echo "export DJANGO_MODE=development" > .env
+
 users: admin, demo. password: цунамипароль в анг. раскадке.
 
 ## Requirements
