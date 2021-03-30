@@ -55,8 +55,6 @@
 
 echo "export DJANGO_MODE=development" > .env
 
-users: admin, demo. password: цунамипароль в анг. раскадке.
-
 ## Requirements
     Python 3.8.0
     Django 2.2.17
